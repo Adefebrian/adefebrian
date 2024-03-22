@@ -1,0 +1,35 @@
+{
+  "name": "ethereum-oss-project",
+  "version": "1.0.1",
+  "description": "Advanced Ethereum OSS project containing ERC20 token contract with additional functionalities such as token vesting, staking, and governance.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/ethereum-oss-project.git"
+  },
+  "keywords": [
+    "ethereum",
+    "oss",
+    "token",
+    "contract",
+    "vesting",
+    "staking",
+    "governance"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "truffle": "^5.5.0"
+  },
+  "directories": {
+    "contracts": "contracts",
+    "scripts": "scripts",
+    "test": "test"
+  }
+}
